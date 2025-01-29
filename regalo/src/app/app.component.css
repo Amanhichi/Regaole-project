@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #000000;
+    color: white;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.header li{
+    font-size: 18px;
+    color: white;
+}
+.header li:hover{
+    color: red;
+}
+
+
+
+.nav {
+    position: sticky;
+    top: 0; /* Navbar sticks at the top */
+    background-color: white; /* White background for navbar */
+    z-index: 1000; /* Ensure it's above other elements */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+  }
+  .nav img{
+      width: 140px;
+  }
+  .nav ul{
+      list-style: none;
+  }
+  .nav .dropdown-item:hover{
+    color: #d83135;
+    font-size: 20px;
+  }
+  /* .nav{
+      position: sticky;
+
+      width: 100%;
+      z-index: 100;
+      background-color: white;
+  } */
+
+  .menu button{
+    background: transparent;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+}
+.enquiry button{
+    border-radius: 0px;
+    height: 60px;
+    width: 100px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+
+
+
+.bottm{
+    background-color: #27282c;
+}
+.bottm h2{
+    color: white;
+    font-weight: 600;
+}
+.bottm li{
+    color: #7c7e84;
+}
+.bottm li:hover{
+    color: white;
+}
+.bottm h5{
+    font-weight: 700;
+    color: #fcfafa;
+}
+.bottm span{
+    color:#d83135;
+
+}
